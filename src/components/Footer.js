@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'; // Import the CSS file for styling
+import './Footer.css'; 
 import twitterLogo from '../SocialMediaLogo/twitter.svg';
 import telegramLogo from '../SocialMediaLogo/telegram.svg';
 import linkedinLogo from '../SocialMediaLogo/linkedin-with-circle.svg';

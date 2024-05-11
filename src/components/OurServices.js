@@ -1,5 +1,5 @@
 import React from 'react';
-import './OurServices.css'; // Import your CSS file
+import './OurServices.css'; 
 
 const HeroSection = ({ title1, title2, subtitle, buttonColor, gradientColors, alignItems, backgroundImage }) => {
     return (

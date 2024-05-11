@@ -41,18 +41,39 @@ const App = () => {
                 title1="Brokers"
                 title2="For Influencer Marketing"
                 subtitle="Enchance your buisness with top notch professionals."
-                buttonColor="#ff5876"
-                gradientColors="linear-gradient(90deg, #fbb9c5 49.37%, rgba(255, 255, 255, 0) 122.14%)"
+                buttonColor="#ebc635"
+                gradientColors="linear-gradient(
+                  90deg,
+                  #f8e598 49.37%,
+                  rgba(255, 255, 255, 0) 122.14%
+                )"
                 alignItems="flex-start"
                 backgroundImage="freelancer.png"
             />
+        {/* <OurService
+                title1="Brokers"
+                title2="For Influencer Marketing"
+                subtitle="Enchance your buisness with top notch professionals."
+                buttonColor="#ebc635"
+                gradientColors="llinear-gradient(
+                  90deg,
+                  #f8e598 49.37%,
+                  rgba(255, 255, 255, 0) 122.14%
+                )"
+                alignItems="flex-start"
+                backgroundImage="freelancer.png"
+            /> */}
         {/* CA Service */}
         <OurService
                 title1="Chartered Accountant"
                 title2="Services of your Billing."
                 subtitle="Let your finances be leveraged with the experts."
-                buttonColor="#ff5876"
-                gradientColors="linear-gradient(90deg, #fbb9c5 49.37%, rgba(255, 255, 255, 0) 122.14%)"
+                buttonColor="#5ef351"
+                gradientColors="linear-gradient(
+                  -90deg,
+                  #c3edbf 49.37%,
+                  rgba(255, 255, 255, 0) 122.14%
+                )"
                 alignItems="flex-end"
                 backgroundImage="freelancer.png"
             />
@@ -61,8 +82,12 @@ const App = () => {
                 title1="Legal Support"
                 title2="Confidence of your rights."
                 subtitle="Now have no more compliant issues for your growth."
-                buttonColor="#ff5876"
-                gradientColors="linear-gradient(90deg, #fbb9c5 49.37%, rgba(255, 255, 255, 0) 122.14%)"
+                buttonColor="#4ae4ff"
+                gradientColors="linear-gradient(
+                  90deg,
+                  #B8DFE6 49.37%,
+                  rgba(255, 255, 255, 0) 122.14%
+                )"
                 alignItems="flex-start"
                 backgroundImage="freelancer.png"
             />
@@ -72,8 +97,12 @@ const App = () => {
                 title1="Get your Portfolio"
                 title2="Boost your profile"
                 subtitle="Enhance your buissness with your portfolio."
-                buttonColor="#ff5876"
-                gradientColors="linear-gradient(90deg, #fbb9c5 49.37%, rgba(255, 255, 255, 0) 122.14%)"
+                buttonColor="#9e78ff"
+                gradientColors="linear-gradient(
+                  -90deg,
+                  #c5bbde 49.37%,
+                  rgba(255, 255, 255, 0) 122.14%
+                )"
                 alignItems="flex-end"
                 backgroundImage="freelancer.png"
             />
