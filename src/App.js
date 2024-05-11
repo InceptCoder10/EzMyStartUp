@@ -2,12 +2,17 @@ import React from 'react';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import OurService from './components/OurServices';
-
+import HomeSection from './components/HomeSection';
+import VideoSection from './components/VideoSection';
 
 const App = () => {
   return (
     <div className="App">
        <NavBar />
+
+       <HomeSection />
+       <VideoSection />
+
        {/* Freelancers */}
        <OurService
                 title1="Freelancers for your work."

@@ -1,0 +1,30 @@
+.video-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-vid {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8; /* Example background color */
+}
+
+.video-sec {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Additional styles for video element */
+.video-sec video {
+    width: 100%; /* Ensure video fills its container */
+    height: 100%; /* Ensure video fills its container */
+    object-fit: cover; /* Cover the entire video container */
+}
+
+section {
+    scroll-snap-align: start; /* Scroll snapping behavior */
+}
