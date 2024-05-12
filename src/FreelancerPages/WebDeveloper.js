@@ -5,15 +5,15 @@ import OurService from '../components/OurServices';
 import Footer from '../components/Footer';
 import './GraphicDesigners.css';
 
-const  GraphicDesigner= () => {
+const  WebDeveloper= () => {
     return (
         <div className='Fl'>
             <NavigationBar />
             <OurService
                 title1="
-                Graphic Designers for You."
-                title2="Graphic Design respresents your Brand."
-                subtitle="Build Your highly representable brand with best graphic Designers."
+                Develop Your Website"
+                title2="Bring your brand online"
+                subtitle="Build Your organization on the web"
                 buttonColor="#87CEEB"
                 gradientColors="linear-gradient(
                     0deg,
@@ -21,86 +21,79 @@ const  GraphicDesigner= () => {
                     rgba(255, 255, 255, 0) 50%
                   )"
                 alignItems="center"
-                backgroundImage="./freelancerImg/Graphic /Design.png"
+                backgroundImage="./freelancerImg/Web Development.png"
                 Page="Freelancer"
                 textAlign="right"
             />
             <section className="wrapper">
+
+                {/* DigitalMarketer */}
                 <Card
                     imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
+                    title="Web Developer Profile"
                     description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
                 />
-                
                 <Card
                     imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
+                    title="Web Developer Profile"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Web Developer Profile"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Web Developer Profile"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Web Developer Profile"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Web Developer Profile"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Web Developer Profile"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Web Developer Profile"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Web Developer Profile"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Web Developer Profile"
                     description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
                 />
 
                 <Card
                     imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
+                    title="Web Developer Profile"
                     description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
                 />
-
                 <Card
                     imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
+                    title="Web Developer Profile"
                     description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
                 />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
+                  
             </section>
             <Footer />
         </div>
     );
 };
 
-export default GraphicDesigner;
+export default WebDeveloper;

@@ -14,6 +14,16 @@ import {
 import Freelancer from './FreeLancerFile/Freelancer';
 import App from './App';
 import GraphicDesigner from './FreelancerPages/GraphicDesigners';
+import BuissnessConsultance from './FreelancerPages/BuissnessConsultance';
+import ContentWriter from './FreelancerPages/ContentWriter';
+import DigitalMarketer from './FreelancerPages/DigitalMarketer';
+import PublicRealations from './FreelancerPages/PublicRelations'  ;
+import SocialMedia from './FreelancerPages/SocialMedia';
+import SoftwareDevelopment from './FreelancerPages/SoftwareDevelopment';
+import VideoEditor from './FreelancerPages/VideoEditor';
+import WebDeveloper from './FreelancerPages/WebDeveloper';
+
+
 
 const router = createBrowserRouter([
   {
@@ -29,9 +39,43 @@ const router = createBrowserRouter([
     element: <Freelancer />,
   },
   {
+    path: "BuissnessConsultance",
+    element: <BuissnessConsultance/>,
+  },
+  {
+    path: "ContentWriter",
+    element: <ContentWriter />,
+  },
+  {
+    path: "DigitalMarketer",
+    element: <DigitalMarketer />,
+  },
+  {
+    path: "PublicRelations",
+    element: <PublicRealations />,
+  },
+  {
+    path: "Socialmedia",
+    element: <SocialMedia/>,
+  },
+  {
+    path: "SoftwareDevelopment",
+    element: <SoftwareDevelopment />,
+  },
+  {
+    path: "VideoEditor",
+    element: <VideoEditor />,
+  },
+  {
+    path: "WebDeveloper",
+    element: <WebDeveloper />,
+  },
+  {
     path: "graphicdesigner",
     element: <GraphicDesigner />,
   },
+  
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

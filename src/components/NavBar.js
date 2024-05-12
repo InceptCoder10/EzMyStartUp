@@ -13,9 +13,9 @@ const NavigationBar = () => {
         
         <nav className={`nav-items ${isOpen && "open"}`}>
           <ul className="nav__links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About Us</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">About Us</a></li>
             <li><a href="/Login"><button>Login</button></a></li> 
           </ul>
         </nav>

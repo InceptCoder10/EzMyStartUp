@@ -5,15 +5,15 @@ import OurService from '../components/OurServices';
 import Footer from '../components/Footer';
 import './GraphicDesigners.css';
 
-const  GraphicDesigner= () => {
+const  DigitalMarketer= () => {
     return (
         <div className='Fl'>
             <NavigationBar />
             <OurService
                 title1="
-                Graphic Designers for You."
-                title2="Graphic Design respresents your Brand."
-                subtitle="Build Your highly representable brand with best graphic Designers."
+                Digital Marketing  GuyDriving digital growth, one click at a time."
+                title2="Transforming clicks into conversions."
+                subtitle="Your brand, amplified in the digital sphere."
                 buttonColor="#87CEEB"
                 gradientColors="linear-gradient(
                     0deg,
@@ -21,86 +21,82 @@ const  GraphicDesigner= () => {
                     rgba(255, 255, 255, 0) 50%
                   )"
                 alignItems="center"
-                backgroundImage="./freelancerImg/Graphic /Design.png"
+                backgroundImage="./freelancerImg/Digital Marketing.png"
                 Page="Freelancer"
                 textAlign="right"
             />
             <section className="wrapper">
-                <Card
+            <Card
                     imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
+                    title="Digital Marketers"
                     description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
                 />
+
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+                <Card
+                    imgSrc="./freelancerImg/blank_profile.png" 
+                    title="Digital Marketers"
+                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
+                />
+
+                {/* Web Developer */}
                 
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
-
-                <Card
-                    imgSrc="./freelancerImg/blank_profile.png" 
-                    title="Designers"
-                    description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid porro ut quia commodi error ipsum delectus quam, perspiciatis blanditiis et."
-                />
+                
+                
             </section>
             <Footer />
         </div>
     );
 };
 
-export default GraphicDesigner;
+export default DigitalMarketer;

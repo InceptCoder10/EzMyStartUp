@@ -117,24 +117,23 @@ img{
   border-radius: 20px;
 }
 
-/* Anchor tag (link) styling */
+
 .google-sign a {
   text-decoration: none;
-  color: #FFFFFF; /* White color for text */
+  color: #FFFFFF; 
   display: flex;
   align-items: center;
 }
 
-/* Icon (inside the link) styling */
+
 .google-sign img {
-  width: 24px; /* Adjust icon size as needed */
+  width: 24px; 
   height: 24px;
-  margin-right: 10px; /* Space between icon and text */
+  margin-right: 10px; 
 }
 
-/* Text (inside the link) styling */
 .google-sign p {
-  margin: 0; /* Remove default paragraph margin */
-  font-weight: bold; /* Bold text */
-  font-size: 16px; /* Adjust font size as needed */
+  margin: 0; 
+  font-weight: bold; 
+  font-size: 16px; 
 }
