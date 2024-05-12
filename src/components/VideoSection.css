@@ -1,53 +1,59 @@
 .video-container {
-    display: flex;
-    height: 100vh;
+  display: flex;
+  height: 100vh;
 }
 
 .left-vid {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #88c9ff; 
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #88c9ff;
 }
 
-.left-vid h1{
-    z-index: 2;
-    color: #000;
+.left-vid h1 {
+  z-index: 2;
+  color: #000;
 }
 
 .video-sec {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .video-sec video {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 section {
-    scroll-snap-align: start; 
+  scroll-snap-align: start;
 }
 
 @media screen and (max-width: 768px)
 {
     .left-vid {
+    /* flex: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #88c9ff;
+  }
+
+  .video-sec {
     flex: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #88c9ff; 
+  }
 }
-
-    .video-sec {
-        flex: 0;
+@media screen and (max-width: 523px) {
+    .video-container{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        width: 100vh;
     }
 }

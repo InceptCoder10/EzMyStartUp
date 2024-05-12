@@ -1,26 +1,26 @@
 .Services {
-    position: relative; 
-}
-
-.Services button {
-    z-index: 2; 
+    position: relative;
+  }
+  
+  .Services button {
+    z-index: 2;
     margin: 20px;
     font-size: 1rem;
     color: #fff;
-    position: relative; 
-    display: inline-block; 
-}
-
-.gradient-freelancer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .gradient-freelancer {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
-}
-
-#hero {
+  }
+  
+  #hero {
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -31,34 +31,89 @@
     justify-content: center;
     flex-direction: column;
     position: relative;
-}
-
-#hero h1,
-.Services h1 {
+  }
+  
+  #hero h1,
+  .Services h1 {
     z-index: 2;
     margin: 10px;
     font-size: 3rem;
-}
-
-#hero p,
-.Services p {
+  }
+  
+  #hero p,
+  .Services p {
     z-index: 2;
     margin: 10px;
     font-size: 1.5rem;
-}
-
-.Services button:hover {
+  }
+  
+  .Services button:hover {
     background-color: rgba(0, 174, 255, 0.75);
   }
-
+  
   .Services,
-#hero {
+  #hero {
     background-repeat: no-repeat;
-    background-size: contain; 
-    background-position: center; 
-}
-
-.Services,
-#hero {
+    background-size: contain;
+    background-position: center;
+  }
+  
+  .Services,
+  #hero {
     background-color: #f0f0f0;
-}
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Services button {
+      font-size: 1rem;
+    }
+  
+    .Services h1,
+    #hero h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .Services p,
+    #hero p {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    #hero {
+      padding: 0 30px;
+      /* width: 100vh; */
+    }
+  }
+  
+  @media screen and (max-width: 544px) {
+    #hero {
+      width: 100vh;
+      /* height: 100vh; */
+      padding: 0;
+    }
+  
+    .Services button {
+      font-size: 0.8rem;
+      position: absolute;
+      left: 10%;
+      width: 200px;
+    }
+  
+    .Services h1,
+    #hero h1 {
+      font-size: 1.5rem;
+    }
+  
+    .Services p,
+    #hero p {
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    #hero {
+      width: 100vh;
+      /* height: 100vh; */
+      padding: 0;
+    }
+  }

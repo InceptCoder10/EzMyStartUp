@@ -7,19 +7,23 @@
     background-color: #739BD0;
     background: linear-gradient(45deg, #003cff, #6dcbf7);
     backdrop-filter: blur(10px);
-  
 }
 
 .home h1 {
     color: #fff;
     text-align: center;
-    font-size: 4rem;
+    font-size: 5vw; /* Adjust the value as needed */
 }
 
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px) {
+    
     .home h1 {
-        
-        font-size: 2rem;   
+        font-size: 10vw; /* Adjust the value as needed */
+    }
+}
+@media screen and (max-width: 388px){
+    .home{
+        position: relative;
+        width: 100vh;
     }
 }
