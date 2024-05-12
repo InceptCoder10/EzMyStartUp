@@ -1,45 +1,60 @@
 .footer {
-    background-color: rgb(20, 20, 170);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo img {
-    width: 100px;
-    height: auto;
-  }
-  
-  .logo p {
-    margin-left: 10px;
-    font-size: 18px;
-  }
-  
-  .social-media {
-    display: flex;
+  background-color: rgb(20, 20, 170);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.logo p {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.logos img {
+  width: 30px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.footer-section h3 {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
     flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
-  
-  .social-media h3 {
-    margin-bottom: 10px;
-    font-size: 16px;
+
+  .logo img {
+    width: 80px;
   }
-  
-  .logos img {
-    width: 30px;
-    height: auto;
-    margin-bottom: 5px;
+
+  .social-media {
+    margin-top: 20px;
   }
-  
-  .footer-section h3 {
-    font-size: 16px;
-  }
-  
+}

@@ -5,7 +5,7 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 
-import Login from './Pages/Login';
+import Login from './LoginPage/Login';
 
 import {
   createBrowserRouter,
@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import Freelancer from './FreeLancerFile/Freelancer';
 import App from './App';
+import GraphicDesigner from './FreelancerPages/GraphicDesigners';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "freelancer",
     element: <Freelancer />,
+  },
+  {
+    path: "graphicdesigner",
+    element: <GraphicDesigner />,
   },
 ]);
 

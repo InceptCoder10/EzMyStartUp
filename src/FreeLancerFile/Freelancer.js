@@ -21,7 +21,7 @@ const  Freelancer= () => {
                   )"
                 alignItems="center"
                 backgroundImage="./freelancerImg/freelancer-main.jpg"
-                Page="Freelancer"
+                Page="graphicdesigner"
                 textAlign="right"
             />
             <section className="wrapper">

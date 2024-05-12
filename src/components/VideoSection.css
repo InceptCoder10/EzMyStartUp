@@ -33,3 +33,21 @@
 section {
     scroll-snap-align: start; 
 }
+
+@media screen and (max-width: 768px)
+{
+    .left-vid {
+    flex: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #88c9ff; 
+}
+
+    .video-sec {
+        flex: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
