@@ -1,0 +1,12 @@
+.fl
+{
+    background: #fff !important;   
+}
+.wrapper {
+    background: #fff !important;
+    padding: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}

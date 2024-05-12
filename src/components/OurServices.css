@@ -1,32 +1,14 @@
-#hero {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top 25% right 0;
-    padding: 0 80px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
+.Services {
+    position: relative; 
 }
 
-#hero h1 {
-    z-index: 2;
-    margin: 10px;
-    font-size: 3rem;
-}
-
-#hero p {
-    z-index: 2;
-    margin: 10px;
-    font-size: 1.5rem;
-}
-
-.freelancer {
-    z-index: 2;
+.Services button {
+    z-index: 2; 
     margin: 20px;
     font-size: 1rem;
     color: #fff;
+    position: relative; 
+    display: inline-block; 
 }
 
 .gradient-freelancer {
@@ -38,17 +20,45 @@
     z-index: 1;
 }
 
-.Services h1
-{
-z-index:2;
-margin: 10px;
-font-size: 3rem;
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
 }
 
-.Services p
-{
-z-index:2;
-margin: 10px;
-font-size: 1.5rem;
+#hero h1,
+.Services h1 {
+    z-index: 2;
+    margin: 10px;
+    font-size: 3rem;
 }
-  
+
+#hero p,
+.Services p {
+    z-index: 2;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+
+.Services button:hover {
+    background-color: rgba(0, 174, 255, 0.75);
+  }
+
+  .Services,
+#hero {
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+}
+
+.Services,
+#hero {
+    background-color: #f0f0f0;
+}

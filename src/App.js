@@ -1,9 +1,10 @@
 import React from 'react';
-import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import OurService from './components/OurServices';
 import HomeSection from './components/HomeSection';
 import VideoSection from './components/VideoSection';
+import Footer from './components/Footer';
+
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
        <HomeSection />
        <VideoSection />
 
-       {/* Freelancers */}
+
        <OurService
                 title1="Freelancers for your work."
                 title2="For your work."
@@ -21,7 +22,9 @@ const App = () => {
                 buttonColor="#ff5876"
                 gradientColors="linear-gradient(90deg, #fbb9c5 49.37%, rgba(255, 255, 255, 0) 122.14%)"
                 alignItems="flex-start"
-                backgroundImage="../OurServices/freelancer.png"
+                backgroundImage="./OurServes/freelancer.png"
+                Page="Freelancer"
+                textAlign="left"
             />
         {/* Advertisement*/}
         <OurService
@@ -34,7 +37,8 @@ const App = () => {
                   #FDD0B1 49.37%,
                   rgba(255, 255, 255, 0) 122.14%)"
                 alignItems="flex-end"
-                backgroundImage="freelancer.png"
+                backgroundImage="./OurServes/Advertisement.jpg"
+                textAlign="right"
             />
         {/* Brokers*/}
         <OurService
@@ -48,21 +52,11 @@ const App = () => {
                   rgba(255, 255, 255, 0) 122.14%
                 )"
                 alignItems="flex-start"
-                backgroundImage="freelancer.png"
+                backgroundImage="./OurServes/broker.jpg"
+                textAlign="left"
+                
             />
-        {/* <OurService
-                title1="Brokers"
-                title2="For Influencer Marketing"
-                subtitle="Enchance your buisness with top notch professionals."
-                buttonColor="#ebc635"
-                gradientColors="llinear-gradient(
-                  90deg,
-                  #f8e598 49.37%,
-                  rgba(255, 255, 255, 0) 122.14%
-                )"
-                alignItems="flex-start"
-                backgroundImage="freelancer.png"
-            /> */}
+ 
         {/* CA Service */}
         <OurService
                 title1="Chartered Accountant"
@@ -75,7 +69,8 @@ const App = () => {
                   rgba(255, 255, 255, 0) 122.14%
                 )"
                 alignItems="flex-end"
-                backgroundImage="freelancer.png"
+                backgroundImage="./OurServes/CA.png"
+                textAlign="right"
             />
         {/* Legal Support */}
         <OurService
@@ -89,7 +84,8 @@ const App = () => {
                   rgba(255, 255, 255, 0) 122.14%
                 )"
                 alignItems="flex-start"
-                backgroundImage="freelancer.png"
+                backgroundImage="./OurServes/Legal.jpg"
+                textAlign="left"
             />
 
         {/* Portfolio */}
@@ -104,7 +100,8 @@ const App = () => {
                   rgba(255, 255, 255, 0) 122.14%
                 )"
                 alignItems="flex-end"
-                backgroundImage="freelancer.png"
+                backgroundImage="./OurServes/portfolio.png"
+                textAlign="right"
             />
       <Footer />
     </div>

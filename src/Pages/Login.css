@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Sofia+Sans+Extra+Condensed:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Helvetica Neue",sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #fff;
+    background-image: url('Background-image-new.jpg');
+    background-size: cover;
+    /* overflow: hidden; */
+    /* position: relative; */
+  }
+  
+  .container {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+     /* Replace 'background-image.jpg' with your image path */
+   
+  }
+  
+  .login-box {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .login-box:hover{
+    border: 1px white solid; 
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color:#fff;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  color: #000; /* Set the text color to black */
+}
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .check
+  {
+   display: flex;
+   justify-content:space-around;
+   align-items: center; 
+   padding-bottom: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .register
+  {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.or{
+  padding: 10px;
+}
+
+img{
+  height: 25px;
+  width: 25px;
+}
+
+/* Container styling */
+.google-sign {
+  display: inline-block;
+  background-color: #2574f3; /* Google blue */
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+/* Anchor tag (link) styling */
+.google-sign a {
+  text-decoration: none;
+  color: #FFFFFF; /* White color for text */
+  display: flex;
+  align-items: center;
+}
+
+/* Icon (inside the link) styling */
+.google-sign img {
+  width: 24px; /* Adjust icon size as needed */
+  height: 24px;
+  margin-right: 10px; /* Space between icon and text */
+}
+
+/* Text (inside the link) styling */
+.google-sign p {
+  margin: 0; /* Remove default paragraph margin */
+  font-weight: bold; /* Bold text */
+  font-size: 16px; /* Adjust font size as needed */
+}

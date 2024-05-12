@@ -6,6 +6,7 @@ import linkedinLogo from '../SocialMediaLogo/linkedin-with-circle.svg';
 import youtubeLogo from '../SocialMediaLogo/youtube.svg';
 import instagramLogo from '../SocialMediaLogo/instagram.svg';
 import facebookLogo from '../SocialMediaLogo/facebook-color.svg';
+import google from '../SocialMediaLogo/google-icon1.svg';
 
 const Footer = () => {
   return (

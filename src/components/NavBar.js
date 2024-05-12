@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavBar.css'; 
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
     return (
@@ -17,9 +18,7 @@ const NavigationBar = () => {
           </ul>
         </nav>
         
-        <a className="cta" href="#">
-          <button>Login</button>
-        </a>
+        <Link to="/Login"><button>Login</button></Link>
       </header>
     );
   };
