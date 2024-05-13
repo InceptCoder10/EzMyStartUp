@@ -185,9 +185,12 @@ button:hover {
     transform: rotate(-45deg) translate(26px, 26px);
   }
 }
-.user{
+.user {
   position: relative;
   font-size: 15px;
   display: flex;
+  color: #000000;
+}
+.user h2{
   color: #000000;
 }

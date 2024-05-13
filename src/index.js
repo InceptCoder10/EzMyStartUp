@@ -91,7 +91,7 @@ root.render(
     }}
   >
     <App />
-    <RouterProvider router={router} />
+    {/* <RouterProvider router={router} /> */}
     
     </Auth0Provider>,
 );
