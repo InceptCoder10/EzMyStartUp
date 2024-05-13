@@ -1,31 +1,52 @@
-import React, { useState } from "react";
-import './NavBar.css'; 
 
+import React, { useState } from "react";
+import './NavBar.css';
+import { useAuth0 } from "@auth0/auth0-react";
 
 const NavigationBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-    return (
-      <header className="header">
-        <div className="logo-container">
-          <img className="logo" src="/LogoNew.png" alt="logo" />
-          <p>EzMyStartup</p>
-        </div>
-        
-        <nav className={`nav-items ${isOpen && "open"}`}>
-          <ul className="nav__links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">About Us</a></li>
-            <li><a href="/Login"><button>Login</button></a></li> 
-          </ul>
-        </nav>
+  const { loginWithRedirect,logout, isAuthenticated, user } = useAuth0();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-        <div className={`nav-toggle ${isOpen && "open"}`}
-        onClick={() => setIsOpen(!isOpen)}>
+  return (
+    <header className="header">
+      <div className="logo-container">
+        <img className="logo" src="/LogoNew.png" alt="logo" />
+        <p>EzMyStartup</p>
+      </div>
+
+      <nav className={`nav-items ${isMenuOpen && "open"}`}>
+        <ul className="nav__links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">About Us</a></li>
+          {isAuthenticated && (
+      <div className="user">
+        <img src={user.picture} alt={user.name} />
+        <h2>{user.name}</h2>
+        {/* <p>{user.email}</p> */}
+      </div>) }
+          {isAuthenticated ? (
+            <li>
+            <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
+      Log Out
+    </button> </li>
+             
+          ) : (
+            <li>
+             <button onClick={() => loginWithRedirect()}>Log In</button>
+             </li>
+          )}
+            
+
+        </ul>
+      </nav>
+
+      <div className={`nav-toggle ${isMenuOpen && "open"}`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}>
         <div className="bar"></div>
-         </div> 
-      </header>
-    );
-  };
-  
-  export default NavigationBar;
+      </div>
+    </header>
+  );
+};
+
+export default NavigationBar;

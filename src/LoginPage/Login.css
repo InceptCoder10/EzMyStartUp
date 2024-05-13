@@ -115,6 +115,7 @@ img{
   background-color: #2574f3; /* Google blue */
   padding: 5px 12px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 
