@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { createRoot } from 'react-dom/client';
+import { Auth0Provider } from '@auth0/auth0-react';
 
 
 import reportWebVitals from './reportWebVitals';
@@ -25,6 +27,7 @@ import WebDeveloper from './FreelancerPages/WebDeveloper';
 
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -32,7 +35,7 @@ const router = createBrowserRouter([
   },
   {
     path: "Login",
-    element: <Login/>,
+    element: <Login />,
   },
   {
     path: "freelancer",
@@ -80,9 +83,17 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <Auth0Provider
+    domain="dev-l48ap2cztbmck83f.us.auth0.com"
+    clientId="rHuPbtlKpa0CVQgMA98sBdUyZW8obLup"
+    authorizationParams={{
+      redirect_uri: window.location.origin
+    }}
+  >
+    <App />
     <RouterProvider router={router} />
-  </React.StrictMode>
+    
+    </Auth0Provider>,
 );
 
 // If you want to start measuring performance in your app, pass a function
