@@ -90,8 +90,8 @@ root.render(
       redirect_uri: window.location.origin
     }}
   >
-    <App />
-    {/* <RouterProvider router={router} /> */}
+    {/* <App /> */}
+    <RouterProvider router={router} />
     
     </Auth0Provider>,
 );
